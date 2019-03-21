@@ -323,9 +323,13 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     min-height: 100%;
 }
 #body img, #body .video-container {
+    /*margin: 3rem auto;*/
+    /*display: block;*/
+    text-align: center;
+}
+#gh_profile {
     margin: 3rem auto;
     display: block;
-    text-align: center;
 }
 #body img.border, #body .video-container.border {
     border: 2px solid #e6e6e6 !important;
